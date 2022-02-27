@@ -1,0 +1,70 @@
+body {
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    color: #262738;
+    overflow-y: scroll;
+}
+header {
+    background-color: rgb(72, 38, 131);
+    height: 100px;
+    position: absolute;
+    width: 100%;
+    color: rgb(185, 134, 31);
+    margin-top: -8px;
+    margin-left: 2px;
+}
+#head {
+    font-weight: 400;
+    font-size: xxx-large;
+    font-family: Oswald, sans-serif;
+    padding-left: 10px;
+    text-align: left;
+    float: left;
+    letter-spacing: 3px;
+    color: #b9861f;
+    line-height: 70px;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#navigation {
+    float: right;
+    text-align: left;
+    color: rgb(185, 134, 31);
+    padding-right: 30px;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+#navigation a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+}
+.current_page {
+    border-bottom: 3px solid rgb(38, 39, 56);
+}
+#history_section_1 {
+    background-color: black;
+    margin-top: 92px;
+    margin-left: -8px;
+    position: absolute;
+    padding-left: 10px;
+    height: 500px;
+    width: 100%;
+}
+#history_section_2 {
+    background-color: rgb(240, 240, 240);
+    margin-top: 592px;
+    margin-left: -8px;
+    position: absolute;
+    padding-left: 10px;
+    height: 500px;
+    width: 100%;
+}
