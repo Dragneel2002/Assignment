@@ -70,7 +70,7 @@ footer {
     width: 100%;
 }
 footer a {
-    color: inherit;
+    color: #b9861f;
     font-weight: 600;
     text-decoration: none;
     float: right;
@@ -105,17 +105,34 @@ footer a {
     margin-left: -8px;
     position: absolute;
     padding-left: 10px;
-    height: 500px;
+    height: 550px;
     width: 100%;
 }
-#company_section_2 {
-    background-color: white;
-    margin-top: 592px;
-    margin-left: -8px;
-    position: absolute;
-    padding-left: 10px;
-    height: 500px;
-    width: 100%;
+
+#company_section_1 h2 {
+    margin-left: 10px;
+    font-size: xx-large;
+    font-family: Oswald, sans-serif;
+}
+
+#company_section_1 p {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+#company_section_1 a {
+    margin-left: 10px;
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: x-large;
+    list-style:circle;
+    text-decoration: underline;
+    color: #482683;
+}
+
+#c_footer {
+    margin-top: 642px;
 }
 /* company page section end */
 /* timeline page section */
