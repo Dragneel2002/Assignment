@@ -228,23 +228,17 @@ footer a {
     margin-top: 642px;
 }
 
-/* #history_section_2 {
-    background-color:#ffffff;
-    margin-top: 592px;
-    margin-left: -8px;
-    position: absolute;
-    padding-left: 10px;
-    height: 500px;
-    width: 100%;
-} */
-
 #navigation {
     float: right;
-    text-align: left;
+    /* text-align: inherit; */
     color: #b9861f;
     padding-right: 30px;
     word-spacing: 20px;
     letter-spacing: 3px;
     list-style-type: none;
+}
+
+#history, #timeline, #company {
+    line-height: 25px;
 }
 /* Id's end */
